@@ -12,7 +12,7 @@ app.use(cors());
 
 const options = {
   cors: {
-    origin: "http://localhost:4200",
+    origin: "*",
   },
 };
 
