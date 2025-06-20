@@ -132,9 +132,6 @@ io.on("connection", (socket: any) => {
   });
 });
 
-
-
-// Iniciar el servidor en el puerto 5000
 server.listen(5000, () => {
   console.log("\n");
   console.log(
